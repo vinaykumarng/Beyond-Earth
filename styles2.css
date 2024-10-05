@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+.heading{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px;
+    margin: 20px;
+    background-color: rgb(67, 54, 54);
+    font-size: 40px;
+}
+
+.info{
+    color: white;
+}
