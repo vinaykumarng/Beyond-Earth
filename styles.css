@@ -7,6 +7,20 @@ body {
     background-color: black;
     overflow: hidden;
 }
+.earth-link {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    color: #fff; 
+  }
+  
+  .earth-link h2 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+  }
 .container {
     font-size: 6px;
     width: 40em;
