@@ -29,7 +29,7 @@ const allInfoElements = document.getElementById('info-container');
 
 // Create some arrays of stored data
 
-const names = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune'];
+const names = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune','Proxima Centauri b'];
 
 const text = ['Orbit speed: 47.4 km/s \n Diameter: 4879 km \n Orbital period: 88 days \n \n Mercury is the closest planet to the sun, but is not the hottest planet in the solar system. It is also the only planet in our solar system to have no moons! As well as the only planet that is too small to have an atmosphere.',
   'Orbit speed: 35.0 km/s \n Diameter: 12,104 km \n Orbital period: 224.7 days \n \n Venus is the 2nd planet from the sun and is the hottest planet in the solar system as its atmosphere is made up mostly og greenhouse gases, which hold the suns heat in.',
@@ -43,7 +43,8 @@ const text = ['Orbit speed: 47.4 km/s \n Diameter: 4879 km \n Orbital period: 88
 
   'Orbit speed: 6.8 km/s \n Diameter: 51,118 km \n Orbital period: 30,589 days \n \n Uranus is the 7th planet in the solar system and like neptune, is made nearly entirely of a mixture of gases. Scientists have also found that one of the gases that makes up uranus is methane, which makes the planet smell like rotten eggs!!',
 
-  'Orbit speed: 5.4 km/s \n Diameter: 49,528 km \n Orbital period: 59,800 days \n \n Neptune is the furthest planet from our sun. It is also the coldest of all the planets and is made up mostly of a mixture of gases.']
+  'Orbit speed: 5.4 km/s \n Diameter: 49,528 km \n Orbital period: 59,800 days \n \n Neptune is the furthest planet from our sun. It is also the coldest of all the planets and is made up mostly of a mixture of gases.',
+  'Distance from Earth: 4.24 light-years \n •	Star Type: Red dwarf (Proxima Centauri) \n •	Temperature: Est between -30°C to 30°C depending on the presence of an atmosphere \n •	Landform: Unknown, though it could be rocky. Being in the habitable zone, liquid water could theoretically exist if the planet has an atmosphere. \n •	Atmosphere: atmosphere rich in carbon dioxide (CO₂)'  ]
 
 const speeds = [0.02, 0.051428, 0.08348, 0.157, 1.00112, 2.41942, 7.008, 13.765714];
 
