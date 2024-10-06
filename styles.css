@@ -244,6 +244,20 @@ img{
     -webkit-touch-callout: none;
     -ms-user-select: none;
   }
+.info-container2 {
+    position: absolute;
+    margin-right: 88%;
+    width: auto;
+    height: 100vh;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -ms-user-select: none;
+  }
   
   .info-item {
     position: relative;
