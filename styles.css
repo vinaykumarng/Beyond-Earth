@@ -309,8 +309,44 @@ img{
     -webkit-touch-callout: none;
     -ms-user-select: none;
   }
-  
+    .wrapper2 {
+    position: absolute;
+    margin-left: 20%;
+    width: 230px;
+    height: 400px;
+    margin-top: 3vh;
+    background-color: rgba(112, 112, 112, 0.842);
+    border: 2px solid rgba(255, 255, 255, 0.479);
+    outline: none;
+    border-radius: 2px;
+    opacity: 0;
+    transition-duration: 0.5s;
+    pointer-events: none;
+    cursor: default;
+    z-index: 100;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -ms-user-select: none;
+  }
   .wrapper-text {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: 'Lexend', sans-serif;
+    outline: none;
+    background: none;
+    border: none;
+    font-size: 12px;
+    transition-duration: 0.15s;
+    padding: 10px;
+    pointer-events: all;
+    letter-spacing: 1px;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -ms-user-select: none;
+  }
+  .wrapper2-text {
     position: relative;
     color: rgb(255, 255, 255);
     font-family: 'Lexend', sans-serif;
@@ -346,6 +382,24 @@ img{
     -webkit-touch-callout: none;
     -ms-user-select: none;
   }
+  .wrapper2-title {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: 'Lexend', sans-serif;
+    outline: none;
+    background: none;
+    border: none;
+    font-size: 18px;
+    transition-duration: 0.15s;
+    text-align: center;
+    padding: 10px;
+    pointer-events: all;
+    letter-spacing: 2px;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -ms-user-select: none;
+  }
   
   .wrapper-hidden {
     position: absolute;
@@ -364,4 +418,20 @@ img{
     -webkit-touch-callout: none;
     -ms-user-select: none;
   }
-  
+    .wrapper2-hidden {
+    position: absolute;
+    pointer-events: none;
+    width: 0;
+    height: 0;
+    display: none;
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 0;
+    outline: none;
+    border: none; 
+    opacity: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -ms-user-select: none;
+  }
