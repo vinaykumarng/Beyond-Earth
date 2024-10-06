@@ -244,7 +244,7 @@ img{
     -webkit-touch-callout: none;
     -ms-user-select: none;
   }
-.info-container2 {
+.left-container {
     position: absolute;
     margin-right: 88%;
     width: auto;
